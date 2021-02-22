@@ -1,0 +1,350 @@
+h2 {
+    font-family: "Futura";
+    color: #3d5cdb;
+}
+
+body{
+    margin: 0;
+    padding: 0；
+}
+
+p {
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header { 
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+header p {
+    font-family: "Futura";
+}
+
+header nav {
+    font-family: "Futura";
+}
+
+.bgimg-slider {
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-title {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h1 img {
+    width: 900px;
+}
+
+.title p {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 50px;
+}
+
+ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 26.6667px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 50px 10px 0px;
+}
+
+nav a:hover {
+    color: #3d5cdb;
+    transition: 0.5s;
+}
+
+h2{
+    text-align: center;
+    font-size: 53.3333px;
+}
+
+.introduction {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introduction-container01 {
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.introduction-container02 {
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.intro-img {
+    width: 500px;
+    margin: 10px;
+}
+
+.right-box {
+    width: 500px;
+    margin: 50px;
+    height: 50%;
+}
+
+.left-box {
+    width: 500px;
+    margin: 50px;
+    height: 50%;
+}
+
+.intro-buttom01,.intro-buttom02 {
+    width: 170px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.intro-buttom01{
+    background-color: #3d5cdb;
+}
+
+.intro-buttom02{
+    background-color: #F8BA30;
+}
+
+.intro-buttom01 a,.intro-buttom02 a {
+    border-color: #ffffff;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-size: 20px;
+    font-weight: 700;
+    gap: normal;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.intro-buttom01:hover,.intro-buttom02:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses {
+    display: block;
+    width: 100%;
+}
+
+.courses h2 {
+    position: relative;
+}
+
+.courses-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.courses-box {
+    position: relative;
+    text-align: center;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    width: 240px;
+    height: 340px;
+    margin: 20px 10px;
+}
+
+.courses-box p {
+    position: relative;
+    color: #183c61;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 14.6667px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 20px 0px 0px;
+}
+
+.courses-img {
+    padding-top: 50px;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.courses-img img {
+    height: 100%;
+}
+
+.courses-buttom01,.courses-buttom02,.courses-buttom03,.courses-buttom04,.courses-buttom05,.courses-buttom06,.courses-buttom07 {
+    border-radius: 12px;
+    line-height: 40px; 
+    margin: 15px 30px;
+}
+
+.courses-buttom01 {
+    background-color: #F16629;
+}
+
+.courses-buttom02 {
+    background-color: #2BA8DE;
+}
+
+.courses-buttom03 {
+    background-color: #333333;
+}
+
+.courses-buttom04 {
+    background-color: #FF5252;
+}
+
+.courses-buttom05 {
+    background-color: #FFD701;
+}
+
+.courses-buttom06 {
+    background-color: #FF7635;
+}
+
+.courses-buttom07 {
+    background-color: #73CFDD;
+}
+
+.courses-box a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.courses-buttom01:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom02:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom03:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom04:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom05:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom06:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+.courses-buttom07:hover {
+    box-shadow: #858c8e 0px 2px 15px 2px;
+}
+
+#particles-js { 
+    display: block;
+    position:absolute;
+    width: 100%;
+    height: 110%;
+    background-color: #d8e6f9;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+} 
+
+.images {
+    margin-top: 150px;
+    display: block;
+    position: relative;
+}
+
+.image-container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.slider {
+    margin: 0%;
+    padding: 0%;
+}
+
+.slider img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.access {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #3d5cdb;
+    bottom: 10px;
+}
+
+footer p {
+    font-family: "Futura";
+}
+
+.fuwat {
+    position: relative;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    animation-duration:1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
