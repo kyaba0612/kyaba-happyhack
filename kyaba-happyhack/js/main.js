@@ -3,6 +3,12 @@ $('.slider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
     dots: true,
+    responsive: [{
+      breakpoint: 375,  
+      settings: {
+        slidesToShow: 1,
+      }
+    }]
 });
 
 particlesJS("particles-js", {
